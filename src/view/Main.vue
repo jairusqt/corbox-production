@@ -10,11 +10,12 @@ import Search from '../components/searchWorkOrder.vue'
             <label class="uppercase">Quantity :</label>
             <label class="uppercase">bom no. :</label>
         </div>
+        
+        <div class="flex justify-end">
         <router-link to="/dashBoard">
-        <div>
-          <button class="bg-emerald-500 text-white w-24 h-8 rounded-md">dashboard</button>
-        </div>
+          <button class="border w-24 h-8 rounded-md mr-10">dashboard</button>
         </router-link>
+        </div>
             <div class="grid grid-cols-2 col-span-2 mt-10 px-10">
             <div class="flex justify-center">
               <div class="mb-8">
