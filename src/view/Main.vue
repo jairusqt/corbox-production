@@ -4,11 +4,17 @@ import Search from '../components/searchWorkOrder.vue'
 <template>
     <div class="container">
         <Search></Search>
+        
         <div class="grid grid-cols-2 col-span-2 mt-10 ">
-            <label class="uppercase mb-5 mr-40">Work Order :</label>
-            <label class="uppercase mr-80">qty :</label>
-            <label class="uppercase mr-48">bom no. :</label>
+            <label class="uppercase">Work Order :</label>
+            <label class="uppercase">Quantity :</label>
+            <label class="uppercase">bom no. :</label>
         </div>
+        <router-link to="/dashBoard">
+        <div>
+          <button class="bg-emerald-500 text-white w-24 h-8 rounded-md">dashboard</button>
+        </div>
+        </router-link>
             <div class="grid grid-cols-2 col-span-2 mt-10 px-10">
             <div class="flex justify-center">
               <div class="mb-8">
