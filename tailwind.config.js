@@ -4,7 +4,27 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+    },
+    
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '1024px',
+          '@screen sm': {
+            maxWidth: '1024px',
+          },
+          '@screen md': {
+            maxWidth: '1024px',
+          },
+          '@screen lg': {
+            maxWidth: '1024px',
+          },
+        }
+      })
+    }
+  ],
 }

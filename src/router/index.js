@@ -1,11 +1,17 @@
 import { createRouter , createWebHistory } from 'vue-router'
-import searchWorkOrder from '../components/searchWorkOrder.vue'
+import MainPage from '../view/Main.vue'
+import LogIn from '../view/LogIn.vue'
 
 const routes = [
     {
         path: '/',
-        name : 'Main',
-        component : searchWorkOrder
+        name : 'LogIn',
+        component : LogIn
+    },
+    {
+        path: '/mainpage',
+        name : 'MainPage',
+        component : MainPage
     }
 ]
 
