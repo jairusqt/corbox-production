@@ -12,7 +12,7 @@ import Search from '../components/searchWorkOrder.vue'
             <div class="grid grid-cols-2 col-span-2 mt-10 px-10">
             <div class="flex justify-center">
               <div class="mb-8">
-                <router-link to="/paperrollissuance">
+                <router-link to="/paperRoll">
                     <button class="uppercase w-80 h-16 bg-emerald-500 hover:bg-emerad-600 text-white font-bold py-2 px-4 rounded">
                         Paper Roll
                     </button>
