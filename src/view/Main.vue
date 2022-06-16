@@ -5,10 +5,17 @@ import Search from '../components/searchWorkOrder.vue'
     <div class="container">
         <Search></Search>
         
-        <div class="grid grid-cols-2 col-span-2 mt-10 ">
-            <label class="uppercase mr-40">Work Order :</label>
-            <label class="uppercase mr-64">Quantity :</label>
-            <label class="uppercase mr-48">bom no. :</label>
+        <div class=""> 
+          <div class="grid grid-cols-2 col-span-2 mt-10 ">
+            <div class="flex justify-start pl-24 grid row-span-2">
+              <label class="uppercase px-5">Work Order :</label>
+              <label class="flex justify-end uppercase px-5">bom no. :</label>
+            </div>
+            <div class="flex justify-start">
+              <label class="uppercase pl-20">Quantity :</label>
+           </div>
+            </div>
+           
         </div>
         
         <div class="flex justify-end">
