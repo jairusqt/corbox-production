@@ -6,14 +6,14 @@ import Search from '../components/searchWorkOrder.vue'
         <Search></Search>
         
         <div class="grid grid-cols-2 col-span-2 mt-10 ">
-            <label class="uppercase">Work Order :</label>
-            <label class="uppercase">Quantity :</label>
-            <label class="uppercase">bom no. :</label>
+            <label class="uppercase mr-40">Work Order :</label>
+            <label class="uppercase mr-64">Quantity :</label>
+            <label class="uppercase mr-48">bom no. :</label>
         </div>
         
         <div class="flex justify-end">
         <router-link to="/dashBoard">
-          <button class="border w-24 h-8 rounded-md mr-10">dashboard</button>
+          <button class="border w-24 h-8 rounded-md mr-28">dashboard</button>
         </router-link>
         </div>
             <div class="grid grid-cols-2 col-span-2 mt-10 px-10">
